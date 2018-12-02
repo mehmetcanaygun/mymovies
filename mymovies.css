@@ -13,15 +13,18 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+#genreList {
   overflow: hidden;
   background-color: #333;
 }
 
-li {
+.genreItem {
   float: left;
 }
 
-li a {
+.genreItem a {
   display: block;
   color: #deec6a;
   text-align: center;
@@ -29,8 +32,18 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+.genreItem a:hover {
   background-color: #111;
+}
+
+.chosen-genre-item {
+  margin-bottom: 1px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.chosen-genre-item:hover {
+  background-color: #deec6a;
 }
 
 #main-title {
@@ -59,4 +72,10 @@ li a:hover {
   background-color: #333;
   color: #deec6a;
   font-size: 1rem;
+}
+
+#random-movie-button {
+  background-color: #deec6a;
+  color: #333;
+  font-weight: bold;
 }

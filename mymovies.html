@@ -13,13 +13,13 @@
 
   <!-- Navbar contains movie genres -->
   <ul id="genreList">
-    <li><a href="#" id="main-title">MOVIES</a></li>
-    <li class="genreItem"><a href="#">Action</a></li>
-    <li class="genreItem"><a href="#">Animation</a></li>
-    <li class="genreItem"><a href="#">Science Fiction</a></li>
-    <li class="genreItem"><a href="#">Fantastic</a></li>
-    <li class="genreItem"><a href="#">Comedy</a></li>
-    <li class="genreItem"><a href="#">Adventure</a></li>
+    <li class="genreItem"><a href="#" id="main-title">MOVIES</a></li>
+    <li class="genreItem"><a href="#" id="action" onclick="return chooseGenre(this.id);">Action</a></li>
+    <li class="genreItem"><a href="#" id="animation" onclick="return chooseGenre(this.id);">Animation</a></li>
+    <li class="genreItem"><a href="#" id="scifi" onclick="return chooseGenre(this.id);">Science Fiction</a></li>
+    <li class="genreItem"><a href="#" id="fantastic" onclick="return chooseGenre(this.id);">Fantastic</a></li>
+    <li class="genreItem"><a href="#" id="comedy" onclick="return chooseGenre(this.id);">Comedy</a></li>
+    <li class="genreItem"><a href="#" id="adventure" onclick="return chooseGenre(this.id);">Adventure</a></li>
   </ul>
 
   <!-- Wrapper for filter tools and movie list -->
@@ -30,6 +30,7 @@
       <input type="number" class="filter-tool" id="movie-imdb-filter" placeholder="IMDB rate(at least)">
       <input type="text" class="filter-tool" id="movie-actors-filter" placeholder="Actors">
       <input type="text" class="filter-tool" id="movie-director-filter" placeholder="Director">
+      <input type="button" class="filter-tool" id="random-movie-button" value="Random">
     </div>
 
     <div class="container" id="movie-list-div">
