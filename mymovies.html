@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Filmlerim</title>
+
+  <link rel="stylesheet" href="mymovies.css">
+
+</head>
+<body>
+
+  <!-- Navbar contains movie genres -->
+  <ul id="genreList">
+    <li><a href="#" id="main-title">MOVIES</a></li>
+    <li class="genreItem"><a href="#">Action</a></li>
+    <li class="genreItem"><a href="#">Animation</a></li>
+    <li class="genreItem"><a href="#">Science Fiction</a></li>
+    <li class="genreItem"><a href="#">Fantastic</a></li>
+    <li class="genreItem"><a href="#">Comedy</a></li>
+    <li class="genreItem"><a href="#">Adventure</a></li>
+  </ul>
+
+  <!-- Wrapper for filter tools and movie list -->
+  <div class="container">
+    <div class="container" id="filter-tools-div">
+      <input type="text" class="filter-tool" id="movie-name-filter" placeholder="Movie Name">
+      <input type="number" class="filter-tool" id="movie-year-filter" placeholder="Movies newer than...">
+      <input type="number" class="filter-tool" id="movie-imdb-filter" placeholder="IMDB rate(at least)">
+      <input type="text" class="filter-tool" id="movie-actors-filter" placeholder="Actors">
+      <input type="text" class="filter-tool" id="movie-director-filter" placeholder="Director">
+    </div>
+
+    <div class="container" id="movie-list-div">
+
+    </div>
+  </div>
+
+  <script src="mymovies.js"></script>
+
+</body>
+</html>
