@@ -39,11 +39,19 @@ ul {
 .chosen-genre-item {
   margin-bottom: 1px;
   padding: 10px;
-  border-radius: 10px;
 }
 
 .chosen-genre-item:hover {
   background-color: #deec6a;
+}
+
+.trailer-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.trailer-link:hover {
+  font-weight: bold;
 }
 
 #main-title {
@@ -65,7 +73,7 @@ ul {
 }
 
 .filter-tool {
-  width: 10rem;
+  width: 20rem;
   margin: 5px;
   padding: 10px;
   border-radius: 10px;
@@ -78,4 +86,5 @@ ul {
   background-color: #deec6a;
   color: #333;
   font-weight: bold;
+  width: 6rem;
 }
